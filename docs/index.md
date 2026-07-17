@@ -12,6 +12,7 @@ The web workspace for TB Management, Executive, M&E and coordination users. Find
 
 [Explore the guide](getting-started.md){ .md-button .md-button--primary }
 [Open the project board](https://github.com/users/traj3ctory/projects/2){ .md-button }
+[Download the presentation](downloads/TB-Operations-Hub-Guide.pptx){ .md-button }
 </section>
 
 <div class="tb_signal" markdown>
