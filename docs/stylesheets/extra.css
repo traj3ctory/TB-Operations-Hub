@@ -1,12 +1,12 @@
 :root {
-  --md-primary-fg-color: #4f46e5;
-  --md-primary-fg-color--light: #818cf8;
-  --md-primary-fg-color--dark: #3730a3;
-  --md-accent-fg-color: #0891b2;
-  --tb-cyan: #22d3ee;
+  --md-primary-fg-color: #008751;
+  --md-primary-fg-color--light: #34d399;
+  --md-primary-fg-color--dark: #005b38;
+  --md-accent-fg-color: #059669;
+  --tb-cyan: #6ee7b7;
   --tb-coral: #fb7185;
   --tb-gold: #fbbf24;
-  --tb-indigo: #6366f1;
+  --tb-indigo: #10b981;
 }
 
 [data-md-color-scheme="default"] {
@@ -21,12 +21,12 @@
   --md-default-fg-color: #e9edf7;
   --md-default-fg-color--light: #9da9bd;
   --md-code-bg-color: #111827;
-  --md-accent-fg-color: #22d3ee;
+  --md-accent-fg-color: #6ee7b7;
 }
 
 .md-header {
-  background: linear-gradient(90deg, #3730a3, #4f46e5 55%, #0891b2);
-  box-shadow: 0 8px 28px rgba(20, 24, 55, 0.18);
+  background: linear-gradient(90deg, #005b38, #008751 52%, #16a34a 84%, #f8fafc 140%);
+  box-shadow: 0 8px 28px rgba(0, 91, 56, 0.2);
 }
 
 .md-header__title {
@@ -35,7 +35,7 @@
 }
 
 .md-tabs {
-  background-color: #3730a3;
+  background-color: #005b38;
 }
 
 .md-main__inner {
@@ -77,13 +77,13 @@
   overflow: hidden;
   margin: 0 0 1.2rem;
   padding: 3rem 3rem 2.8rem;
-  border: 1px solid rgba(129, 140, 248, 0.35);
+  border: 1px solid rgba(52, 211, 153, 0.32);
   border-radius: 1.25rem;
   background:
-    radial-gradient(circle at 88% 8%, rgba(34, 211, 238, 0.24), transparent 27%),
-    radial-gradient(circle at 8% 100%, rgba(251, 113, 133, 0.16), transparent 28%),
-    linear-gradient(135deg, #111827 0%, #25205f 54%, #164e63 100%);
-  box-shadow: 0 26px 70px rgba(30, 41, 90, 0.22);
+    radial-gradient(circle at 88% 8%, rgba(248, 250, 252, 0.16), transparent 25%),
+    radial-gradient(circle at 8% 100%, rgba(52, 211, 153, 0.18), transparent 30%),
+    linear-gradient(135deg, #071a14 0%, #064e3b 55%, #008751 100%);
+  box-shadow: 0 26px 70px rgba(0, 91, 56, 0.2);
 }
 
 .tb_hero::after {
@@ -93,7 +93,7 @@
   width: 5.5rem;
   height: 0.34rem;
   border-radius: 999px;
-  background: linear-gradient(90deg, var(--tb-coral), var(--tb-gold), var(--tb-cyan));
+  background: linear-gradient(90deg, #008751 0 35%, #f8fafc 35% 65%, #16a34a 65%);
   content: "";
 }
 
@@ -112,7 +112,7 @@
 }
 
 .tb_eyebrow {
-  color: #67e8f9;
+  color: #a7f3d0;
   font-size: 0.66rem;
   font-weight: 800;
   letter-spacing: 0.17em;
@@ -125,13 +125,13 @@
 }
 
 .tb_hero .md-button--primary {
-  border-color: #6366f1;
-  background: linear-gradient(90deg, #4f46e5, #0891b2);
+  border-color: #10b981;
+  background: linear-gradient(90deg, #008751, #16a34a);
 }
 
 .tb_hero .md-button:not(.md-button--primary) {
-  border-color: rgba(103, 232, 249, 0.58);
-  color: #e0f2fe;
+  border-color: rgba(167, 243, 208, 0.58);
+  color: #ecfdf5;
 }
 
 .tb_signal {
@@ -155,7 +155,7 @@
 
 .tb_signal div:nth-child(1) strong { color: var(--tb-indigo); }
 .tb_signal div:nth-child(2) strong { color: var(--tb-coral); }
-.tb_signal div:nth-child(3) strong { color: #0891b2; }
+.tb_signal div:nth-child(3) strong { color: #059669; }
 
 .tb_signal strong {
   font-size: 1.28rem;
@@ -202,8 +202,8 @@
 
 .tb_card:hover {
   transform: translateY(-4px);
-  border-color: rgba(99, 102, 241, 0.45);
-  box-shadow: 0 18px 44px rgba(30, 41, 90, 0.14);
+  border-color: rgba(16, 185, 129, 0.45);
+  box-shadow: 0 18px 44px rgba(0, 91, 56, 0.14);
 }
 
 .tb_card h3 {
@@ -232,10 +232,10 @@
 .tb_rule {
   margin-top: 0.8rem;
   padding: 1.15rem 1.4rem;
-  border: 1px solid rgba(99, 102, 241, 0.22);
+  border: 1px solid rgba(16, 185, 129, 0.22);
   border-left: 4px solid var(--tb-coral);
   border-radius: 0.75rem;
-  background: linear-gradient(100deg, rgba(99, 102, 241, 0.08), rgba(34, 211, 238, 0.05));
+  background: linear-gradient(100deg, rgba(0, 135, 81, 0.09), rgba(248, 250, 252, 0.04));
 }
 
 .tb_rule h2 {
