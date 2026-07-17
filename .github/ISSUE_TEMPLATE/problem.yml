@@ -23,13 +23,13 @@ body:
     id: period
     attributes:
       label: Reporting period
-      placeholder: Example: 2026 Q2 or June 2026
+      placeholder: "Example: 2026 Q2 or June 2026"
   - type: input
     id: level
     attributes:
       label: Location or reporting level
       description: Use a programme level or non-confidential location description.
-      placeholder: Example: State summary or facility reporting level
+      placeholder: "Example: State summary or facility reporting level"
   - type: textarea
     id: observed
     attributes:
