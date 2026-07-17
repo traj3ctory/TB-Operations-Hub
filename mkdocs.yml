@@ -1,0 +1,65 @@
+site_name: TB Operations Hub
+site_description: Guidance for using the TB GitHub collaboration workspace
+site_url: https://traj3ctory.github.io/TB-Operations-Hub/
+repo_url: https://github.com/traj3ctory/TB-Operations-Hub
+repo_name: TB Operations Hub on GitHub
+
+theme:
+  name: material
+  language: en
+  logo: assets/tb-mark.svg
+  favicon: assets/tb-mark.svg
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+nav:
+  - Home: index.md
+  - Get started: getting-started.md
+  - The four tools:
+      - Docs website: docs.md
+      - Issues: issues.md
+      - Discussions: discussions.md
+      - Projects: projects.md
+  - End-to-end workflow: workflow.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/traj3ctory/TB-Operations-Hub

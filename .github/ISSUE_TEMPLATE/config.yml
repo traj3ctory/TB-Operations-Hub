@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a TB programme question
+    url: https://github.com/traj3ctory/TB-Operations-Hub/discussions/categories/q-a
+    about: Use Discussions when you need clarification rather than a tracked action.

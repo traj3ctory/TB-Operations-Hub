@@ -1,0 +1,53 @@
+name: Request an update
+description: Request a change to TB guidance, reporting, a template or the workspace
+title: "[REQUEST] "
+labels: [request]
+body:
+  - type: markdown
+    attributes:
+      value: Describe one clear outcome. A TB coordinator will review, prioritise and assign it.
+  - type: textarea
+    id: need
+    attributes:
+      label: What is needed?
+      description: Describe the requested update in plain language.
+      placeholder: Update the monthly reporting template to include…
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why is it needed?
+      description: Explain the programme need, affected users and likely impact.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What should success look like?
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Suggested priority
+      options: [Low, Medium, High, Urgent]
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Needed-by date
+      placeholder: YYYY-MM-DD or Not date-sensitive
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting information
+      description: Add safe links, screenshots, documents or a related Discussion. Do not include confidential patient information.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I have removed patient names, IDs and other confidential health information.
+          required: true
