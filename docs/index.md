@@ -21,6 +21,17 @@ The web workspace for TB Management, Executive, M&E and coordination users. Find
 <div><strong>0</strong><span>coding required</span></div>
 </div>
 
+<section class="tb_download" markdown>
+<span class="tb_eyebrow">TRAINING RESOURCE</span>
+
+## Present the TB workflow to your team
+
+Use the tailored dark-mode presentation for orientation sessions with Management, Executive, M&E and coordination users.
+
+[Download the PowerPoint presentation](downloads/TB-Operations-Hub-Guide.pptx){ .md-button .md-button--primary }
+[View presentation details](presentation.md){ .md-button }
+</section>
+
 ## Use the right tool for the job
 
 <div class="tb_grid" markdown>

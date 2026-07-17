@@ -242,6 +242,28 @@
   margin-top: 0;
 }
 
+.tb_download {
+  margin: 0 0 2.6rem;
+  padding: 1.45rem 1.6rem;
+  border: 1px solid rgba(52, 211, 153, 0.3);
+  border-radius: 1rem;
+  background: linear-gradient(110deg, rgba(0, 135, 81, 0.16), rgba(248, 250, 252, 0.035));
+  box-shadow: 0 12px 34px rgba(0, 91, 56, 0.1);
+}
+
+.tb_download h2 {
+  margin: 0.45rem 0 0.45rem;
+}
+
+.tb_download p {
+  max-width: 62ch;
+}
+
+.tb_download .md-button {
+  margin: 0.55rem 0.4rem 0 0;
+  border-radius: 999px;
+}
+
 @media screen and (max-width: 50rem) {
   .md-typeset {
     font-size: 0.76rem;

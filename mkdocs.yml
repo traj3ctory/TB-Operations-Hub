@@ -37,6 +37,7 @@ theme:
 nav:
   - Home: index.md
   - Get started: getting-started.md
+  - Download presentation: presentation.md
   - The four tools:
       - Docs website: docs.md
       - Issues: issues.md
